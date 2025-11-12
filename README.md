@@ -7,7 +7,7 @@ Additionally, the project is scheduled to run automatically using a **cron job**
 
 The **HTML report** is archived and available in the **Artifacts** section for the team to download.  
 You can also view the latest report directly from the GitHub Pages site:  
-👉 [https://virajkolekar.github.io/Phoenix-Inwarranty-Flow/](https://virajkolekar.github.io/Phoenix-Inwarranty-Flow/)  
+👉 https://github.com/waghh87/postman-api-automation/ 
 The latest report is also emailed to team members using **Gmail SMTP**.
 
 ---
@@ -15,15 +15,15 @@ The latest report is also emailed to team members using **Gmail SMTP**.
 ## 👨‍💻 About Me
 
 Hi, my name is **Harshad Wagh**.  
-I have **10 years of experience** in **Manual and Automation Testing**, currently working as a **Sr.QA Engineer** at **Crest Infosystems Pvt Ltd.** in Surat.  
+I have **3.5 years of experience** in **Manual and Automation Testing**, currently working as a **Sr.QA Engineer** at **Crest Infosystems Pvt Ltd.** in Surat.  
 
 My skillset includes:  
-- **UI Automation:** Selenium WebDriver (Java), Cypress, Playwright  
+- **UI Automation:** Selenium WebDriver (Java), Playwright (JavaScript)  
 - **API Testing:** Rest Assured, Postman  
 - **CI/CD & DevOps:** Jenkins, GitHub Actions, Maven  
 - **Version Control:** Git, GitHub  
 
-📫 You can connect with me on [LinkedIn](https://www.linkedin.com/in/virajkolekar/)
+📫 You can connect with me on [LinkedIn](https://www.linkedin.com/in/harshad-wagh-71002a145/)
 
 ---
 
@@ -55,7 +55,7 @@ My skillset includes:
 ## 🌐 GitHub Pages
 
 You can directly view the latest test report of the Postman Test here:  
-👉 [https://virajkolekar.github.io/Phoenix-Inwarranty-Flow/](https://virajkolekar.github.io/Phoenix-Inwarranty-Flow/)
+👉 (https://github.com/waghh87/postman-api-automation/)
 
 ---
 
@@ -63,24 +63,12 @@ You can directly view the latest test report of the Postman Test here:
 
 The HTML report is generated under the folder:  
 
-![Postman Report](https://github.com/VIRAJK-dev/Phoenix-Inwarranty-Flow/blob/static-report/newman-report.png)
+![Postman Report]newman run NewCollection.postman_collection.json -r htmlextra --reporter-htmlextra-export ./results/report.html
 ```
 /newman/Postman Report
 ```
 
 ---
-
-## 📁 Project Structure
-
-```bash
-Phoenix Inwarranty Flow
-├─ Inwarranty-flow Collection.postman_collection.json   # Collection File
-├─ QA.postman_environment.json                          # Environment File
-└─ testdata.csv                                         # Test Data File
-```
-
----
-
 ## ⚙️ How to Run the Project
 
 You can run the project on your local system by following these steps:
@@ -105,7 +93,7 @@ You can run the project on your local system by following these steps:
 
 5. **Run the Newman Command:**  
    ```bash
-   newman run 'Inwarranty-flow Collection.postman_collection.json'      -e QA.postman_environment.json      -d testdata.csv      -r cli,htmlextra      --reporter-htmlextra-export ./newman/index.html
+   newman run NewCollection.postman_collection.json -r cli,htmlextra --reporter-htmlextra-export ./newman/index.html
    ```
 
 ---
