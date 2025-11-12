@@ -75,7 +75,7 @@ You can run the project on your local system by following these steps:
 
 1. **Clone the Project on Local System:**  
    ```bash
-   git clone https://github.com/virajkolekar/Phoenix-Inwarranty-Flow.git
+   git clone (https://github.com/waghh87/postman-api-automation/)
    ```
 
 2. **Install Node.js and NPM:**  
